@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="album_id" type="id"/>
+    <item name="phto_id" type="id"/>
+    <item name="picture_id" type="id"/>
+    <item name="id_layout_header" type="id"/>
+    <item name="id_layout_container" type="id"/>
+    <item name="id_back" type="id"/>
+    <item name="id_title" type="id"/>
+    <item name="id_grid_view" type="id"/>
+    <item name="id_grid_view_cell" type="id"/>
+    <item name="id_grid_view_cell_checkbox" type="id"/>
+    <item name="id_album_view" type="id"/>
+    <item name="id_album_view_cell" type="id"/>
+    <item name="id_album_view_cell_image" type="id"/>
+    <item name="id_album_view_cell_text" type="id"/>
+    <item name="id_pager_view_cell" type="id"/>
+    <item name="id_select_view" type="id"/>
+    <item name="id_view_pager" type="id"/>
+    <item name="id_edit" type="id"/>
+    <item name="id_check" type="id" />
+    <item name="id_image_select" type="id" />
+    <item name="id_image_select_cell" type="id" />
+    <item name="id_texture_view" type="id" />
+    <item name="id_image_view" type="id" />
+    <item name="id_play_view" type="id" />
+    <item name="id_play_status_view" type="id" />
+    <item name="id_progress_view" type="id" />
+    <item name="id_current_time" type="id" />
+    <item name="id_time" type="id" />
+    <item name="id_cover" type="id" />
+    <item name="id_control_view" type="id" />
+    <item name="id_complete" type="id" />
+    <item name="id_footer" type="id"/>
+    <item name="id_album" type="id"/>
+    <item name="id_capture" type="id"/>
+    <item name="id_preview" type="id"/>
+    <item name="id_surface" type="id"/>
+    <item name="id_take_picture" type="id"/>
+    <item name="id_flash" type="id"/>
+    <item name="id_change_camera" type="id"/>
+    <item name="id_capture_result" type="id" />
+    <item name="id_temp" type="id" />
+    <item name="id_confirm" type="id" />
+    <item name="id_cancel" type="id" />
+    <item name="id_container" type="id" />
+    <item name="id_header" type="id" />
+    <item name="id_pager" type="id" />
+    <item name="id_hint" type="id" />
+    <item name="id_function_cut" type="id" />
+    <item name="id_function_rotate" type="id" />
+    <item name="id_function_filter" type="id" />
+    <item name="id_gpu_image" type="id" />
+    <item name="id_crop_image" type="id" />
+    <item name="id_footer_crop" type="id" />
+    <item name="id_footer_cut" type="id" />
+    <item name="id_footer_filter" type="id" />
+    <item name="id_cut_cancel" type="id" />
+    <item name="id_cut_finish" type="id" />
+    <item name="id_cut_free" type="id" />
+    <item name="id_cut_32" type="id" />
+    <item name="id_cut_23" type="id" />
+    <item name="id_rotate_cancel" type="id" />
+    <item name="id_rotate_finish" type="id" />
+    <item name="id_rotate_left" type="id" />
+    <item name="id_rotate_right" type="id" />
+    <item name="id_filter_cancel" type="id" />
+    <item name="id_filter_finish" type="id" />
+    <item name="id_filter_list" type="id" />
+    <item name="id_filter" type="id" />
+</resources>

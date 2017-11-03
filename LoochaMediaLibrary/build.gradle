@@ -1,0 +1,43 @@
+apply plugin: 'com.android.library'
+
+
+android {
+    compileSdkVersion rootProject.ext.android.compileSdkVersion
+    buildToolsVersion rootProject.ext.android.buildToolsVersion
+
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            java.srcDirs = ['src']
+            resources.srcDirs = ['src']
+            aidl.srcDirs = ['src']
+            renderscript.srcDirs = ['src']
+            res.srcDirs = ['res']
+        }
+
+        debug.setRoot('buildtypes/debug')
+        release.setRoot('buildtypes/release')
+    }
+
+
+    lintOptions {
+        abortOnError false
+    }
+}
+
+repositories {
+    flatDir
+            { dirs '../Push/libs', 'libs' }
+}
+
+dependencies {
+    compile rootProject.ext.dependencies["gpu-image"]
+    compile (rootProject.ext.dependencies["crop-image"]){
+        exclude group: 'io.reactivex.rxjava2', module: 'rxjava'
+    }
+    provided rootProject.ext.dependencies["appcompat-v7"]
+    compile project(':LoochaUiLibrary')
+    provided project(':LoochaBaseModel')
+    provided project(':lifecycleModule')
+    compile project(':uResModule')
+}

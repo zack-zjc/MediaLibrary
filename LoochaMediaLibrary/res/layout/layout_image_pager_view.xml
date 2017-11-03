@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/id_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.liu.hz.view.RecyclerViewPager
+        android:id="@id/id_view_pager"
+        android:scrollbars="none"
+        android:background="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <RelativeLayout
+        android:id="@id/id_layout_header"
+        android:layout_width="match_parent"
+        android:background="#333333"
+        android:layout_height="44dp">
+
+        <ImageView
+            android:id="@id/id_back"
+            android:src="@drawable/icon_left_arrow"
+            android:padding="12dp"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp" />
+
+        <TextView
+            android:id="@id/id_title"
+            android:textSize="18dp"
+            android:textColor="#ffffff"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@id/id_complete"
+            android:textSize="14dp"
+            android:textColor="#333333"
+            android:text="@string/str_complete"
+            android:background="@drawable/bg_complete_selector"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="12dp"
+            android:enabled="false"
+            android:gravity="center"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="27dp" />
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@id/id_select_view"
+        android:background="#7f000000"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="44dp"
+        android:layout_height="80dp"/>
+
+    <RelativeLayout
+        android:id="@id/id_footer"
+        android:background="#333333"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_height="44dp">
+
+        <TextView
+            android:id="@id/id_edit"
+            android:text="@string/str_edit"
+            android:textColor="#ffffff"
+            android:textSize="15dp"
+            android:layout_centerVertical="true"
+            android:padding="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:id="@id/id_check"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:layout_centerVertical="true"
+            android:drawablePadding="9dp"
+            android:button="@null"
+            android:textSize="15dp"
+            android:textColor="#ffffff"
+            android:text="@string/str_select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
